@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Pomodoro Time Tracker - 5-8-23</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomodoro Timer - Minimalist Pomodoro Timer for Working and Studying</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="pomodoro-container">
+    <div id="interval-container">
+      <button id="short-break-interval-btn" class="interval-btn">Short Break</button>
+      <button id="pomodoro-interval-btn" class="interval-btn">Focus</button>
+      <button id="long-break-interval-btn" class="interval-btn">Long Break</button>
+    </div>
+    <div id="timer-container">
+      <div id="time-left">25:00</div>
+    </div>
+    <div id="start-stop-reset-container">
+      <button id="start-stop-btn">Start</button>
+      <button id="reset-btn"><i class="fas fa-redo-alt"></i></button>
+      <button id="settings-btn"><i class="fas fa-cog"></i></button>
+    </div>
+  </div>
+
+  <!-- Modal for Settings -->
+  <div id="settings-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <div class="setting-wrapper">
+      <h3>Settings</h3>
+      <div class="setting-option">
+        <label for="background-color">Choose the Background Color</label>
+        <select id="background-color">
+          <option value="#FFFFFF">LM Default White</option>
+          <option value="#F7F6F3">LM Off White</option>
+          <option value="#F1F1EF">LM Notion Grey</option>
+          <option value="#F4EEEE">LM Notion Brown</option>
+          <option value="#FAEBDD">LM Notion Orange</option>
+          <option value="#FBF3DB">LM Notion Yellow</option>
+          <option value="#EDF3EC">LM Notion Green</option>
+          <option value="#E7F3F8">LM Notion Blue</option>
+          <option value="#F6F3F9">LM Notion Purple</option>
+          <option value="#FAF1F5">LM Notion Pink</option>
+          <option value="#FDEBEC">LM Notion Red</option>
+          
+          <option value="#191919">DM Default</option>
+          <option value="#262626">DM Hover</option>
+          <option value="#202020">DM Sidebar</option>
+          <option value="#434040">DM Notion Brown</option>
+          <option value="#594A3A">DM Notion Orange</option>
+          <option value="#FDEBB9">DM Notion Yellow</option>
+          <option value="#D6FAD8">DM Notion Green</option>
+          <option value="#364954">DM Notion Blue</option>
+          <option value="#443F57">DM Notion Purple</option>
+          <option value="#533B4C">DM Notion Pink</option>
+          <option value="#594141">DM Notion Red</option>
+        </select>
+      </div>
+      <div class="setting-option">
+        <label for="font-color">Choose the Font Color</label>
+        <select id="font-color">
+          <option value="#37352F">LM Notion Default</option>
+          <option value="#787774">LM Notion Grey</option>
+          <option value="#9F6B53">LM Notion Brown</option>
+          <option value="#D9730D">LM Notion Orange</option>
+          <option value="#CB912F">LM Notion Yellow</option>
+          <option value="#448361">LM Notion Green</option>
+          <option value="#337EA9">LM Notion Blue</option>
+          <option value="#9065B0">LM Notion Purple</option>
+          <option value="#C14C8A">LM Notion Pink</option>
+          <option value="#D44C47">LM Notion Red</option>
+          
+          <option value="#979A9B">DM Notion Grey</option>
+           <option value="#D4D4D4">DM White</option>
+          <option value="#937264">DM Notion Brown</option>
+          <option value="#FFA344">DM Notion Orange</option>
+          <option value="#FFDC49">DM Notion Yellow</option>
+          <option value="#4DAB9A">DM Notion Green</option>
+          <option value="#529CCA">DM Notion Blue</option>
+          <option value="#9A6DD7">DM Notion Purple</option>
+          <option value="#E255A1">DM Notion Pink</option>
+          <option value="#FF7369">DM Notion Red</option>
+        </select>
+        <button id="save-btn">Save</button>
+      </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></script>
+  <script src="./script.js"></script>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
